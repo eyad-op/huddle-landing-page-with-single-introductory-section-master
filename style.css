@@ -183,19 +183,16 @@ main {
 
 @media (min-width: 800px) {
   body {
+    height: 100vh;
     background: none, #674baf;
   }
   main {
-    max-width: 1285px;
     background: url(./images/bg-desktop.svg), #674baf;
     background-repeat: no-repeat;
     background-size: contain;
   }
-  .header-nav {
-    padding-bottom: 7rem;
-  }
   .header-nav .nav-link .logo {
-    width: 13rem;
+    width: 17rem;
   }
   .container {
     display: -ms-grid;
@@ -209,7 +206,6 @@ main {
   }
   .header-nav {
     grid-column: 1/-1;
-    max-width: 1440px;
   }
   .main__img {
     -ms-grid-column: 1;
@@ -235,16 +231,17 @@ main {
             justify-content: center;
   }
   .content__title {
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: left;
   }
   .content__desc {
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
   .content .cta {
-    width: 170px;
+    width: 250px;
     height: 50px;
+    font-size: 1rem;
   }
   .footer-nav {
     grid-column: 2/-1;
